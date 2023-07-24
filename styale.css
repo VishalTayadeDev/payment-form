@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: 53PX 80PX;;
+    padding: 50PX 40PX;
+    color: darkslategrey;
+text-align: center;
+font-size: 80px;
+font-family: 'Courier New', Courier, monospace;
+cursor: pointer;
+
+}
+h2{
+    background-color: darkslategrey;
+    border: 4px solid black;
+    border-radius: 50%;
+    box-shadow: rgb(253, 1, 1);
+    margin:10 90;
+    padding:100 90;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    color:rgb(255, 127, 8) ;
+    text-align: center;
+
+
+
+
+}
+h2 :hover{
+    color: rgb(255, 30, 30);
+}
+div{
+    border:5px solid rgb(2, 2, 2);
+    background-color: rgba(46, 105, 105, 0.199);
+    border-radius: 5%;
+    box-shadow: rgba(104, 26, 26, 0.459);
+    margin:60px 89px;
+    padding:80px 80px;
+  
+}
+div img{
+    width: 200px;
+    border-radius: 50%;
+    float: right;
+    margin: -67px;
+    padding: 47px;
+}
+body {
+    margin: cenater;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    }
+    form.vtt{
+        text-align: left;
+    }
+    span :hover{
+       text-decoration: underline;
+       color: rgb(90, 125, 155);
+       cursor: pointer;
+        
+    }
+    span{
+       width: 30px;
+    }
+   

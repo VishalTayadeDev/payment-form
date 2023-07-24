@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment form</title>
+    <link rel="stylesheet" href="styale.css" />
+  </head>
+  <body>
+    <form action="serever loction" class="vtt">
+      <h1>⁜Payment form⁜</h1>
+      <h2>contact Informetion</h2>
+      <div>
+        <p>Name:<input type="text" name="name" required /></p>
+        <fieldset>
+          <strong>Gender:</strong> Male
+          <input type="radio" name="myGender" required /> Female
+          <input type="radio" name="myGender" required /> Other
+          <input type="radio" name="myGender" required />
+        </fieldset>
+        <p>
+          Address:<textarea
+            name="Address"
+            id="Address"
+            cols="100"
+            rows="8"
+            required
+          ></textarea>
+        </p>
+        <p>Email:<input type="email" name="email" id="Email" required /></p>
+        <p>
+          Pincode:<input type="number" name="pincode" id="pincode" required />
+        </p>
+        <h3>Payment Informetion</h3>
+        <p>
+          cord type:
+          <select name="card_type" id="card_type" required>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">mastercard</option>
+          </select>
+        </p>
+        <p>
+          card Number
+          <input type="number" name="card_number" id="cord_type" required />
+        </p>
+        <p>Expiration date: <input type="date" name="exp_date" required /></p>
+        <p>CW <input type="password" name="cvv" id="cvv" required /></p>
+        <span><input type="submit" value="pay now" /> </span>
+        <img src="bbt.jpg" alt="bbt.jpg">
+      </div>
+    </form>
+  </body>
+</html>
+                          
